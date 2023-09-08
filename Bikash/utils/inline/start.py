@@ -26,9 +26,13 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                 text="💖 𝐆𝐫𝐨𝐮𝐩 💖", url=config.SUPPORT_GROUP
             )
         ],
-     [
-
-         return buttons
+        [           
+            InlineKeyboardButton(
+                text="💥𝐎𝐰𝐧𝐞𝐫💥", url=f"https://t.me/Monu_Gupta_01"
+            )
+        ],
+     ]
+    return buttons
 
 
 def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
@@ -50,6 +54,11 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             ),
             InlineKeyboardButton(
                 text="🥀 𝐆𝐫𝐨𝐮𝐩 💥", url=config.SUPPORT_GROUP
+            )
+        ],
+        [           
+            InlineKeyboardButton(
+                text="💥𝐃𝐞𝐯𝐥𝐨𝐩𝐞𝐫💥", url=f"https://t.me/Monu_Gupta_01"
             )
         ],
         [
